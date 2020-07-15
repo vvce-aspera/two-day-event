@@ -20,14 +20,44 @@ class Main extends Component {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nibh
           dictum, condimentum metus eget, tristique elit.
         </h4>
-        <PosterSection
-          img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
-          code="XXX-XXX-XXX"
-          coordinators={["Jane Doe", "Jack Blanc"]}
-          platform="Instagram"
-          timings="10am"
-          key="1"
-        />
+        <div className="posters">
+          <PosterSection
+            img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
+            coordinators={["Jane Doe", "Jack Blanc"]}
+            platform="Instagram"
+            timings="10:30am to 12:30am"
+            key="1"
+            link="https://www.instagram.com/vvceofficial"
+            date={1}
+          />
+          <PosterSection
+            img={`${process.env.PUBLIC_URL}/images/madadsWeb.jpg`}
+            coordinators={["Jane Doe", "Jack Blanc"]}
+            platform="Google Meet"
+            timings="10:30am to 12:30am"
+            key="2"
+            link="#"
+            date={1}
+          />
+          <PosterSection
+            img={`${process.env.PUBLIC_URL}/images/stockmarketWeb.jpg`}
+            coordinators={["Jane Doe", "Jack Blanc"]}
+            platform="Google Meet"
+            timings="10:30am to 12:30am"
+            key="3"
+            link="#"
+            date={2}
+          />
+          <PosterSection
+            img={`${process.env.PUBLIC_URL}/images/debateWeb.jpg`}
+            coordinators={["Jane Doe", "Jack Blanc"]}
+            platform="Google Meet"
+            timings="10:30am to 12:30am"
+            key="4"
+            link="#"
+            date={2}
+          />
+        </div>
       </div>
     );
   }

@@ -1,37 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
 }
 
 body {
-  background-color: #150D42;
+  background-color: #150d42;
 }
 
-@media only screen and (max-width: 700px) {
-
+@media only screen and (max-width: 800px) {
   .container {
     margin: 1em;
   }
 
   h1 {
     text-align: center;
-    margin: 0.2em;
+    margin: 0.5em;
   }
 
   h4 {
     margin: 0.1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .posters {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .poster-section {
-    width: 90vw;
+    width: 100%;
     position: relative;
-    margin: 1em auto;
+    padding: 1em;
+    background-color: #0c072b;
+    border-radius: 10px;
+  }
+
+  .platform > img,
+  .timings > img {
+    width: 4em;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    margin-bottom: 2em;
+  }
+
+  .event > div {
+    background-color: #100a3a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 0em;
+    padding: 0.7em;
+    border-radius: 12px;
+  }
+
+  .timings > p,
+  .platform .platform-name {
+    margin-left: 1em;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .timings > p {
+    font-size: 1.3em;
+  }
+
+  .platform .platform-name {
+    padding: 10px 13px;
+    border-radius: 8px;
+    border: none;
+    background: #1d135a;
+    outline: none;
+    box-shadow: 4px 4px 9px #08041c, -4px -4px 9px #100a3a;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .platform .platform-name:focus {
+    border-radius: 8px;
+    background: #0c072b;
+    outline: none;
+    color: grey;
+    border: none;
+    box-shadow: inset 4px 4px 9px #08041c, inset -4px -4px 9px #100a3a;
+  }
+
+  .platform > a {
+    text-decoration: none;
   }
 
   .poster-section > img {
@@ -40,5 +106,192 @@ body {
     left: 0;
     right: 0;
     border-radius: 5px;
+  }
+
+  .coordinators {
+    margin-bottom: 2.5em;
+    margin-left: 1em;
+  }
+
+  .coordinators > .head {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+  }
+
+  .coordinators > p {
+    font-size: 1.6em;
+    margin: 0.4em 0;
+  }
+
+  .date {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+  }
+
+  .date > .whitespace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 0.8em;
+  }
+
+  .whitespace > p:nth-child(1) {
+    font-size: 0.9em;
+    color: red;
+    margin: -0.1em;
+  }
+
+  .whitespace > p:nth-child(2) {
+    font-size: 3em;
+    padding: 0 0.1em;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .container {
+    margin: 1em;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0.5em;
+  }
+
+  h4 {
+    margin: 0.1em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .posters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .poster-section {
+    margin: 1em 0;
+    width: 22em;
+    position: relative;
+    padding: 1em;
+    background-color: #0c072b;
+    border-radius: 10px;
+  }
+
+  .platform > img,
+  .timings > img {
+    width: 4em;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    margin-bottom: 2em;
+  }
+
+  .event > div {
+    background-color: #100a3a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 0em;
+    padding: 0.7em;
+    border-radius: 12px;
+  }
+
+  .timings > p,
+  .platform .platform-name {
+    margin-left: 1em;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .timings > p {
+    font-size: 1.3em;
+  }
+
+  .platform .platform-name {
+    padding: 10px 13px;
+    border-radius: 8px;
+    border: none;
+    background: #1d135a;
+    outline: none;
+    box-shadow: 4px 4px 9px #08041c, -4px -4px 9px #100a3a;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .platform .platform-name:focus {
+    border-radius: 8px;
+    background: #0c072b;
+    outline: none;
+    color: grey;
+    border: none;
+    box-shadow: inset 4px 4px 9px #08041c, inset -4px -4px 9px #100a3a;
+  }
+
+  .platform > a {
+    text-decoration: none;
+  }
+
+  .poster-section > img {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+  }
+
+  .coordinators {
+    margin-bottom: 2.5em;
+    margin-left: 1em;
+  }
+
+  .coordinators > .head {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+  }
+
+  .coordinators > p {
+    font-size: 1.6em;
+    margin: 0.4em 0;
+  }
+
+  .date {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+  }
+
+  .date > .whitespace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 0.8em;
+  }
+
+  .whitespace > p:nth-child(1) {
+    font-size: 0.9em;
+    color: red;
+    margin: -0.1em;
+  }
+
+  .whitespace > p:nth-child(2) {
+    font-size: 3em;
+    padding: 0 0.1em;
+    color: black;
   }
 }
