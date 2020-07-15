@@ -1,6 +1,7 @@
 import React from "react";
 
 const PosterSection = ({
+  aos,
   date,
   img,
   coordinators,
@@ -9,7 +10,7 @@ const PosterSection = ({
   link,
 }) => {
   return (
-    <section className="poster-section">
+    <section data-aos={aos} className="poster-section">
       <img src={img} alt="keynote" />
       <div className="details">
         <div className="event">

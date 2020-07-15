@@ -15,13 +15,14 @@ class Main extends Component {
   render() {
     return (
       <div className="container">
-        <h1>TWO DAY EVENT</h1>
-        <h4>
+        <h1 data-aos="fade-down">TWO DAY EVENT</h1>
+        <h4 data-aos="fade-down">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nibh
           dictum, condimentum metus eget, tristique elit.
         </h4>
         <div className="posters">
           <PosterSection
+            aos="fade-left"
             img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
             coordinators={["Jane Doe", "Jack Blanc"]}
             platform="Instagram"
@@ -31,6 +32,7 @@ class Main extends Component {
             date={1}
           />
           <PosterSection
+            aos="fade-right"
             img={`${process.env.PUBLIC_URL}/images/madadsWeb.jpg`}
             coordinators={["Jane Doe", "Jack Blanc"]}
             platform="Google Meet"
@@ -40,6 +42,7 @@ class Main extends Component {
             date={1}
           />
           <PosterSection
+            aos="fade-left"
             img={`${process.env.PUBLIC_URL}/images/stockmarketWeb.jpg`}
             coordinators={["Jane Doe", "Jack Blanc"]}
             platform="Google Meet"
@@ -49,6 +52,7 @@ class Main extends Component {
             date={2}
           />
           <PosterSection
+            aos="fade-right"
             img={`${process.env.PUBLIC_URL}/images/debateWeb.jpg`}
             coordinators={["Jane Doe", "Jack Blanc"]}
             platform="Google Meet"
