@@ -34,9 +34,8 @@ class Main extends Component {
             <PosterSection
               aos="fade-down"
               img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
-              coordinators={["Jack Doe", "Jane Doe"]}
               platform="Instagram"
-              timings="10:30am to 12:30am"
+              timings="10am"
               key="1"
               link="https://www.instagram.com/vvceofficial"
               date={1}
@@ -46,7 +45,7 @@ class Main extends Component {
               img={`${process.env.PUBLIC_URL}/images/madadsWeb.jpg`}
               coordinators={["Zabiulla Sheriff", "Shikha Yadav"]}
               platform="Google Meet"
-              timings="10:30am to 12:30am"
+              timings="11am to 1pm"
               key="2"
               link="https://surveyheart.com/form/5f10282bdacc0d0815657ec5"
               date={1}
@@ -66,7 +65,7 @@ class Main extends Component {
               img={`${process.env.PUBLIC_URL}/images/debateWeb.jpg`}
               coordinators={["Sushma Ganesh", "Sanjana Srinath"]}
               platform="Google Meet"
-              timings="10:30am to 12:30am"
+              timings="3pm to 5pm"
               key="4"
               link="https://docs.google.com/forms/d/e/1FAIpQLSdXR-AmqukANOMcOfYUgaOaSd70d3O8kUBSOokhvhYKEg0wtQ/viewform"
               date={2}
@@ -84,11 +83,13 @@ class Main extends Component {
               alt="NEN"
             />
           </div>
-          <p>Vidyavardhaka College of Engineering</p>
-          <p>
-            An Autonomous Institute, Affiliated by NBA and NAAC with A Grade
-          </p>
-          <p>Gokulam III Stage, Mysuru</p>
+          <div className="text">
+            <p>Vidyavardhaka College of Engineering</p>
+            <p>
+              An Autonomous Institute, Affiliated by NBA and NAAC with A Grade
+            </p>
+            <p>Gokulam III Stage, Mysuru</p>
+          </div>
         </div>
       </React.Fragment>
     );

@@ -158,6 +158,10 @@ html {
     padding: 0 0.1em;
     color: black;
   }
+
+  .poster-section:nth-child(1) {
+    padding-bottom: 30%;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -312,6 +316,14 @@ html {
     text-align: right;
     font-size: 4em;
   }
+
+  .bottom-bar > .text {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 6em;
+    margin-bottom: -4em;
+  }
 }
 
 .bottom-bar {
@@ -328,15 +340,15 @@ html {
   margin-bottom: 1em;
 }
 
-.bottom-bar > p {
+.bottom-bar > .text > p {
   font-weight: 400;
   font-size: 1em;
   text-align: center;
   margin: 0.4em;
 }
 
-.bottom-bar > p:nth-child(3),
-p:nth-child(4) {
+.bottom-bar > .text > p:nth-child(2),
+.bottom-bar > .text > p:nth-child(3) {
   font-size: 0.5em;
   text-transform: uppercase;
 }

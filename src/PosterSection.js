@@ -46,22 +46,24 @@ const PosterSection = ({
             )}
           </div>
         </div>
-        <div className="coordinators">
-          <p className="head">Co-ordinators</p>
-          {coordinators.map((i) => (
-            <p>{i}</p>
-          ))}
-        </div>
+        {coordinators !== undefined && (
+          <div className="coordinators">
+            <p className="head">Co-ordinators</p>
+            {coordinators.map((i) => (
+              <p>{i}</p>
+            ))}
+          </div>
+        )}
       </div>
       <div className="date">
         {date === 1 ? (
           <div className="whitespace">
-            <p>Thursday</p>
+            <p>Wednesday</p>
             <p>29</p>
           </div>
         ) : (
           <div className="whitespace">
-            <p>Friday</p>
+            <p>Thursday</p>
             <p>30</p>
           </div>
         )}
