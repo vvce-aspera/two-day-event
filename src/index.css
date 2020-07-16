@@ -17,7 +17,7 @@ html {
     margin: 1em;
   }
 
-  .top-bar > img {
+  .top-bar > div > img {
     height: 2.3em;
     margin: 0.5em;
   }
@@ -178,7 +178,7 @@ html {
     margin: 0.1em;
     margin-bottom: 2em;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 400;
   }
 
@@ -307,7 +307,7 @@ html {
     padding: 0 0.1em;
     color: black;
   }
-  .top-bar > img {
+  .top-bar > div > img {
     height: 5em;
     margin: 2em;
   }

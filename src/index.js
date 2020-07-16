@@ -18,17 +18,27 @@ class Main extends Component {
       <React.Fragment>
         <div className="container">
           <div className="top-bar">
-            <img
-              src={`${process.env.PUBLIC_URL}/AsperaLogoLight.png`}
-              alt="asperaLogo"
-            />
+            <div>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+                alt="vvceLogo"
+              />
+              <img
+                src={`${process.env.PUBLIC_URL}/AsperaLogoLight.png`}
+                alt="asperaLogo"
+              />
+            </div>
             <h1>Ad Ventures</h1>
           </div>
 
           <h4>
-            We at Aspera invite you to our Ad Ventures!
+            Ad Ventures is a two day event organised by us to promote marketing
+            skills among the budding entrepreneurs.
             <br />
-            (more text required 😁😁)
+            <br />
+            The event takes place on 29th and 30th July with different events
+            that test the creativity, persuation as well as the entrepreneurial
+            spirit of the participants.
           </h4>
           <div className="posters">
             <PosterSection
@@ -85,10 +95,10 @@ class Main extends Component {
           </div>
           <div className="text">
             <p>Vidyavardhaka College of Engineering</p>
-            <p>
-              An Autonomous Institute, Affiliated by NBA and NAAC with A Grade
-            </p>
             <p>Gokulam III Stage, Mysuru</p>
+            <p>
+              An Autonomous Institute, Accredited by NBA and NAAC with A Grade
+            </p>
           </div>
         </div>
       </React.Fragment>
