@@ -9,6 +9,7 @@ class Main extends Component {
   componentDidMount() {
     AOS.init({
       delay: 150,
+      offset: 100,
     });
   }
 
@@ -73,11 +74,21 @@ class Main extends Component {
           </div>
         </div>
         <div className="bottom-bar">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
-            alt="vvceLogo"
-          />
-          <img src={`${process.env.PUBLIC_URL}/images/nenLogo.png`} alt="NEN" />
+          <div className="images">
+            <img
+              src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+              alt="vvceLogo"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/nenLogo.png`}
+              alt="NEN"
+            />
+          </div>
+          <p>Vidyavardhaka College of Engineering</p>
+          <p>
+            An Autonomous Institute, Affiliated by NBA and NAAC with A Grade
+          </p>
+          <p>Gokulam III Stage, Mysuru</p>
         </div>
       </React.Fragment>
     );
