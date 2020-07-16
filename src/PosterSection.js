@@ -8,6 +8,7 @@ const PosterSection = ({
   timings,
   platform,
   link,
+  registration,
 }) => {
   return (
     <section data-aos={aos} className="poster-section">
@@ -39,7 +40,7 @@ const PosterSection = ({
                   alt="gmeet"
                 />
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                  <button className="platform-name">Google Meet</button>
+                  <button className="platform-name">Register!</button>
                 </a>
               </React.Fragment>
             )}

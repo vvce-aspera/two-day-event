@@ -121,7 +121,7 @@ body {
   }
 
   .coordinators > p {
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin: 0.4em 0;
   }
 
@@ -264,7 +264,7 @@ body {
   }
 
   .coordinators > p {
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin: 0.4em 0;
   }
 
@@ -295,4 +295,34 @@ body {
     padding: 0 0.1em;
     color: black;
   }
+}
+
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #0c072b;
+  align-items: center;
+}
+
+.bottom-bar > img {
+  width: 3.5em;
+  margin: 1em;
+}
+
+.bottom-bar > img:nth-child(2) {
+  height: 4em;
+  width: auto;
+}
+
+.aspera > img {
+  margin: 0 auto;
+  width: 15em;
+}
+
+.aspera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
