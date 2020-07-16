@@ -76,7 +76,7 @@ class Main extends Component {
             src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
             alt="vvceLogo"
           />
-          <img src={`${process.env.PUBLIC_URL}/images/NENLogo.png`} alt="NEN" />
+          <img src={`${process.env.PUBLIC_URL}/images/nenLogo.png`} alt="NEN" />
         </div>
       </React.Fragment>
     );
