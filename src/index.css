@@ -94,7 +94,7 @@ html {
     cursor: pointer;
   }
 
-  .platform .platform-name:focus {
+  .platform .platform-name:active {
     border-radius: 8px;
     background: #0c072b;
     outline: none;
@@ -161,6 +161,19 @@ html {
 
   .poster-section:nth-child(1) {
     padding-bottom: 30%;
+  }
+
+  .bottom-bar > .text > p {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.4em;
+  }
+
+  .bottom-bar > .text > p:nth-child(2),
+  .bottom-bar > .text > p:nth-child(3) {
+    font-size: 0.7em;
+    text-transform: uppercase;
   }
 }
 
@@ -243,7 +256,7 @@ html {
     cursor: pointer;
   }
 
-  .platform .platform-name:focus {
+  .platform .platform-name:active {
     border-radius: 8px;
     background: #0c072b;
     outline: none;
@@ -324,6 +337,19 @@ html {
     bottom: 6em;
     margin-bottom: -4em;
   }
+
+  .bottom-bar > .text > p {
+    font-weight: 400;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0.4em;
+  }
+
+  .bottom-bar > .text > p:nth-child(2),
+  .bottom-bar > .text > p:nth-child(3) {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
 }
 
 .bottom-bar {
@@ -338,19 +364,6 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
-}
-
-.bottom-bar > .text > p {
-  font-weight: 400;
-  font-size: 1em;
-  text-align: center;
-  margin: 0.4em;
-}
-
-.bottom-bar > .text > p:nth-child(2),
-.bottom-bar > .text > p:nth-child(3) {
-  font-size: 0.5em;
-  text-transform: uppercase;
 }
 
 .bottom-bar > .images > img {

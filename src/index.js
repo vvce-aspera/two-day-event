@@ -37,7 +37,7 @@ class Main extends Component {
             <br />
             <br />
             The event takes place on 29th and 30th July with different events
-            that test the creativity, persuation as well as the entrepreneurial
+            that test the creativity, persuasion as well as the entrepreneurial
             spirit of the participants.
           </h4>
           <div className="posters">
@@ -45,7 +45,7 @@ class Main extends Component {
               aos="fade-down"
               img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
               platform="Instagram"
-              timings="10am"
+              timings="10:00am"
               key="1"
               link="https://www.instagram.com/vvceofficial"
               date={1}
@@ -57,7 +57,7 @@ class Main extends Component {
               platform="Google Meet"
               timings="11am to 1pm"
               key="2"
-              link="https://surveyheart.com/form/5f10282bdacc0d0815657ec5"
+              link="https://docs.google.com/forms/d/e/1FAIpQLSfqB2fLK4SUM2iJLsDDaW-iUmEPNc11tFYPJhJ7EEJafChipQ/viewform"
               date={1}
             />
             <PosterSection
