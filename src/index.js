@@ -16,13 +16,14 @@ class Main extends Component {
     return (
       <React.Fragment>
         <div className="container">
-          <div className="aspera">
+          <div className="top-bar">
             <img
-              src={`${process.env.PUBLIC_URL}/images/asperaLogo.png`}
+              src={`${process.env.PUBLIC_URL}/AsperaLogoLight.png`}
               alt="asperaLogo"
             />
+            <h1>Ad Ventures</h1>
           </div>
-          <h1>Ad Ventures</h1>
+
           <h4>
             We at Aspera invite you to our Ad Ventures!
             <br />
@@ -32,7 +33,7 @@ class Main extends Component {
             <PosterSection
               aos="fade-down"
               img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
-              coordinators={["Jane Doe", "Jack Blanc"]}
+              coordinators={["Jack Doe", "Jane Doe"]}
               platform="Instagram"
               timings="10:30am to 12:30am"
               key="1"
