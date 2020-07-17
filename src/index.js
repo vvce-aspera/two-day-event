@@ -59,7 +59,7 @@ class Main extends Component {
               img={`${process.env.PUBLIC_URL}/images/madadsWeb.jpg`}
               coordinators={["Zabiulla Sheriff", "Shikha Yadav"]}
               platform="Google Meet"
-              timings="11am to 1pm"
+              timings="11:00am to 1:00pm"
               key="2"
               link="https://docs.google.com/forms/d/e/1FAIpQLSfqB2fLK4SUM2iJLsDDaW-iUmEPNc11tFYPJhJ7EEJafChipQ/viewform"
               date={1}
@@ -79,7 +79,7 @@ class Main extends Component {
               img={`${process.env.PUBLIC_URL}/images/debateWeb.jpg`}
               coordinators={["Sushma Ganesh", "Sanjana Srinath"]}
               platform="Google Meet"
-              timings="3pm to 5pm"
+              timings="3:00pm to 5:00pm"
               key="4"
               link="https://docs.google.com/forms/d/e/1FAIpQLSdXR-AmqukANOMcOfYUgaOaSd70d3O8kUBSOokhvhYKEg0wtQ/viewform"
               date={2}

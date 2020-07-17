@@ -13,6 +13,11 @@ html {
 }
 
 @media only screen and (max-width: 800px) {
+  /* just to make the poster 3 timings a bit small */
+  .poster-section:nth-child(3) .timings > p {
+    font-size: 1.2em;
+  }
+
   .container {
     margin: 1em;
   }
