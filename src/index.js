@@ -93,8 +93,8 @@ class Main extends Component {
             <p>Dr. B Sadashive Gowda</p>
           </div>
           <div>
-            <p>Co-ordinators</p>
-            <p>Pratheek Bhat</p>
+            <p>Faculty Co-ordinator</p>
+            <p>Dr. Lokesh C</p>
           </div>
         </div>
         <div className="bottom-bar">
