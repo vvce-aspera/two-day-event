@@ -17,7 +17,7 @@ html {
     margin: 1em;
   }
 
-  .top-bar > div > img {
+  .top-bar img {
     height: 2.3em;
     margin: 0.5em;
   }
@@ -320,7 +320,7 @@ html {
     padding: 0 0.1em;
     color: black;
   }
-  .top-bar > div > img {
+  .top-bar img {
     height: 5em;
     margin: 2em;
   }
@@ -357,7 +357,7 @@ html {
   padding-bottom: 0.5em;
 }
 
-.bottom-bar > .images {
+.bottom-bar .images {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -366,7 +366,7 @@ html {
   margin-bottom: 1em;
 }
 
-.bottom-bar > .images > img {
+.bottom-bar > .images > a > img {
   width: 3.5em;
   margin: 1em;
 }
@@ -389,4 +389,26 @@ html {
   font-weight: 400;
   letter-spacing: 8px;
   text-transform: uppercase;
+}
+
+.conv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f0935;
+}
+
+.conv > div {
+  margin: 1em;
+}
+
+.conv > div > p:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.conv > div:nth-child(2) > p {
+  text-align: right;
 }

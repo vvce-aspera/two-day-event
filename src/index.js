@@ -19,14 +19,18 @@ class Main extends Component {
         <div className="container">
           <div className="top-bar">
             <div>
-              <img
-                src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
-                alt="vvceLogo"
-              />
-              <img
-                src={`${process.env.PUBLIC_URL}/AsperaLogoLight.png`}
-                alt="asperaLogo"
-              />
+              <a href="https://www.vvce.ac.in">
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+                  alt="vvceLogo"
+                />
+              </a>
+              <a href="https://shashankathreya.github.io/Aspera-Website/">
+                <img
+                  src={`${process.env.PUBLIC_URL}/AsperaLogoLight.png`}
+                  alt="asperaLogo"
+                />
+              </a>
             </div>
             <h1>Ad Ventures</h1>
           </div>
@@ -42,7 +46,7 @@ class Main extends Component {
           </h4>
           <div className="posters">
             <PosterSection
-              aos="fade-down"
+              aos="fade-up"
               img={`${process.env.PUBLIC_URL}/images/keynoteWeb.jpg`}
               platform="Instagram"
               timings="10:00am"
@@ -61,7 +65,7 @@ class Main extends Component {
               date={1}
             />
             <PosterSection
-              aos="fade-down"
+              aos="fade-up"
               img={`${process.env.PUBLIC_URL}/images/stockmarketWeb.jpg`}
               coordinators={["Soundarya"]}
               platform="Google Meet"
@@ -82,12 +86,25 @@ class Main extends Component {
             />
           </div>
         </div>
+
+        <div className="conv">
+          <div>
+            <p>Convenor</p>
+            <p>Dr. B Sadashive Gowda</p>
+          </div>
+          <div>
+            <p>Co-ordinators</p>
+            <p>Pratheek Bhat</p>
+          </div>
+        </div>
         <div className="bottom-bar">
           <div className="images">
-            <img
-              src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
-              alt="vvceLogo"
-            />
+            <a href="https://www.vvce.ac.in">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+                alt="vvceLogo"
+              />
+            </a>
             <img
               src={`${process.env.PUBLIC_URL}/images/nenLogo.png`}
               alt="NEN"
