@@ -86,36 +86,37 @@ class Main extends Component {
             />
           </div>
         </div>
-
-        <div className="conv">
-          <div>
-            <p>Convenor</p>
-            <p>Dr. B Sadashive Gowda</p>
+        <div data-aos="fade-up" data-aos-easing="ease-in-sine">
+          <div className="conv">
+            <div>
+              <p>Convenor</p>
+              <p>Dr. B Sadashive Gowda</p>
+            </div>
+            <div>
+              <p>Faculty Co-ordinator</p>
+              <p>Dr. Lokesh C</p>
+            </div>
           </div>
-          <div>
-            <p>Faculty Co-ordinator</p>
-            <p>Dr. Lokesh C</p>
-          </div>
-        </div>
-        <div className="bottom-bar">
-          <div className="images">
-            <a href="https://www.vvce.ac.in">
+          <div className="bottom-bar">
+            <div className="images">
+              <a href="https://www.vvce.ac.in">
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+                  alt="vvceLogo"
+                />
+              </a>
               <img
-                src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
-                alt="vvceLogo"
+                src={`${process.env.PUBLIC_URL}/images/nenLogo.png`}
+                alt="NEN"
               />
-            </a>
-            <img
-              src={`${process.env.PUBLIC_URL}/images/nenLogo.png`}
-              alt="NEN"
-            />
-          </div>
-          <div className="text">
-            <p>Vidyavardhaka College of Engineering</p>
-            <p>Gokulam III Stage, Mysuru</p>
-            <p>
-              An Autonomous Institute, Accredited by NBA and NAAC with A Grade
-            </p>
+            </div>
+            <div className="text">
+              <p>Vidyavardhaka College of Engineering</p>
+              <p>Gokulam III Stage, Mysuru</p>
+              <p>
+                An Autonomous Institute, Accredited by NBA and NAAC with A Grade
+              </p>
+            </div>
           </div>
         </div>
       </React.Fragment>

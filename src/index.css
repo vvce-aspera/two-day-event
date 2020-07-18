@@ -180,6 +180,30 @@ html {
     font-size: 0.7em;
     text-transform: uppercase;
   }
+
+  .conv {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0f0935;
+  }
+
+  .conv * {
+    white-space: nowrap;
+  }
+
+  .conv > div {
+    margin: 1em;
+  }
+
+  .conv > div > p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+
+  .conv > div:nth-child(2) > p {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -355,6 +379,10 @@ html {
     font-size: 1em;
     text-transform: uppercase;
   }
+
+  .conv {
+    justify-content: space-between;
+  }
 }
 
 .bottom-bar {
@@ -398,11 +426,13 @@ html {
 
 .conv {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   background-color: #0f0935;
+}
+
+.conv * {
+  white-space: nowrap;
 }
 
 .conv > div {
@@ -412,8 +442,4 @@ html {
 .conv > div > p:nth-child(1) {
   text-transform: uppercase;
   font-size: 0.8em;
-}
-
-.conv > div:nth-child(2) > p {
-  text-align: right;
 }
