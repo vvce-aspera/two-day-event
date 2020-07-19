@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dda50ddeceb71a9ec9050f5bf8e85094",
+    "revision": "467b6d2b0435f297f3466ceedb39e473",
     "url": "/two-day-event/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/two-day-event/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "4e3501a883ff59c42f77",
-    "url": "/two-day-event/static/css/main.a93e7e62.chunk.css"
+    "revision": "d384e8e80360617a3748",
+    "url": "/two-day-event/static/css/main.43963b43.chunk.css"
   },
   {
     "revision": "6d0487b842188adcdb12",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/two-day-event/static/js/2.3a43e024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e3501a883ff59c42f77",
-    "url": "/two-day-event/static/js/main.cd572bd2.chunk.js"
+    "revision": "d384e8e80360617a3748",
+    "url": "/two-day-event/static/js/main.b2224c8d.chunk.js"
   },
   {
     "revision": "343281d46086b86c57c5",
