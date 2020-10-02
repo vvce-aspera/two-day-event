@@ -40,8 +40,8 @@ class Main extends Component {
             skills among the budding entrepreneurs.
             <br />
             <br />
-            The event takes place on 29th and 30th July with different events
-            that test the creativity, persuasion as well as the entrepreneurial
+            The event takes place on 5th & 6th August with different events that
+            test the creativity, persuasion as well as the entrepreneurial
             spirit of the participants.
           </h4>
           <div className="posters">
@@ -61,7 +61,7 @@ class Main extends Component {
               platform="Google Meet"
               timings="11:00am to 1:00pm"
               key="2"
-              link="https://docs.google.com/forms/d/e/1FAIpQLSfqB2fLK4SUM2iJLsDDaW-iUmEPNc11tFYPJhJ7EEJafChipQ/viewform"
+              link="#"
               date={1}
             />
             <PosterSection
@@ -71,7 +71,7 @@ class Main extends Component {
               platform="Google Meet"
               timings="10:30am to 12:30am"
               key="3"
-              link="https://docs.google.com/forms/d/e/1FAIpQLScBB_yaqOMpMXEIsaKMRZ4to2KQeKFUvcNnz9fd6SZPMR5BKA/viewform"
+              link="#"
               date={2}
             />
             <PosterSection
@@ -81,7 +81,7 @@ class Main extends Component {
               platform="Google Meet"
               timings="3:00pm to 5:00pm"
               key="4"
-              link="https://docs.google.com/forms/d/e/1FAIpQLSdXR-AmqukANOMcOfYUgaOaSd70d3O8kUBSOokhvhYKEg0wtQ/viewform"
+              link="#"
               date={2}
             />
           </div>
