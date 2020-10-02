@@ -40,8 +40,8 @@ class Main extends Component {
             skills among the budding entrepreneurs.
             <br />
             <br />
-            The event takes place on 29th and 30th July with different events
-            that test the creativity, persuasion as well as the entrepreneurial
+            The event takes place on 5th & 6th August with different events that
+            test the creativity, persuasion as well as the entrepreneurial
             spirit of the participants.
           </h4>
           <div className="posters">
